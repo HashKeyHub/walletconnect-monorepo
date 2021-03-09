@@ -1,6 +1,6 @@
-import StarkwareProvider from "starkware-provider";
 import WCRpcConnection from "@walletconnect/rpc-connection";
 import { IWalletConnectStarkwareProviderOptions } from "@walletconnect/types";
+import StarkwareProvider from "starkware-provider";
 
 export * from "starkware-provider";
 

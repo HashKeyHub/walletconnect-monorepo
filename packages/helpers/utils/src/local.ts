@@ -1,5 +1,5 @@
-import { safeJsonParse, safeJsonStringify } from "./misc";
 import { getLocalStorage } from "./browser";
+import { safeJsonParse, safeJsonStringify } from "./misc";
 
 export function setLocal(key: string, data: any): void {
   const raw = safeJsonStringify(data);
